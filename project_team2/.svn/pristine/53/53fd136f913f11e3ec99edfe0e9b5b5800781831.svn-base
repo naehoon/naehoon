@@ -1,0 +1,52 @@
+/* 
+ * =============================
+ * 프로그램 설명 : 회원가입, 회원정보 조회, 수정을 위한 DAO  
+ * プログラムの説明: 会員加入、会員情報の照会、修正のためのDAO  
+ * 작성자 : 황경하, 김덕현　　
+ * 作成者 : ファン・ギョンハ、キム・ドクヒョン
+ * 최초 작성일자 :
+ * 最初の作成日付　:　　
+ * 최종 수정일 : 
+ * 最終の修正日付　:
+ * 수정 내용 : 	
+ * 修正の内容 :
+ * =============================
+ * */
+
+package com.bs.vo;
+
+public class LoginPageVO {
+	
+	private String balance = null; //잔고残高
+	private int price = 0; //가격価格
+	
+
+	public LoginPageVO(int price) {
+		super();
+		this.price = price;
+	}
+
+	public LoginPageVO(String balance) {
+		super();
+		this.balance = balance;
+	}
+
+	public String getBalance() {
+		return balance;
+	}
+
+	public void setBalance(String balance) {
+		this.balance = balance;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	
+	
+
+}
