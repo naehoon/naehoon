@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2 align="center">form test</h2>
+	<form action="http://www.naver.com" method = "post">
+		<table border=1	width="50%">
+			<tr>
+				<td>ID : </td>
+				<td><input type="text" name ="id"></td>
+			</tr>
+			
+			<tr>
+				<td>password : </td>
+				<td><input type="password" name ="pass"></td>
+			</tr>		
+					
+			<tr>
+				<td colspan="2">
+				<input type="submit" value = "로그인"/>
+				</td>
+			</tr>
+		</table>
+	
+	</form>
+	
+	<form enctype="multupart/form-data" method="post">
+		hidden : <input type="hidden" name ="id" value="ONH"></br>
+		data : <input type="text" name ="data" maxlength="5" value="data"></br>
+		pass : <input type="password" name ="pass" maxlength="5" ></br>
+		radio : <input type="radio" name ="ra" value="male" checked>남성
+				  <input type="radio" name ="ra" value="female" >여성</br>
+		check : <input type="checkbox" name="ch" value="1"/>java</br>
+		button : <input type="button" name="bt" value="버튼 누르기"/></br>
+		file attached : <input type="file" value="찾아보기"/></br>
+		submit : <input type="submit" value="전송"/></br>
+		reset : <input type="reset" value="입력 초기화"/></br>
+	</form>
+</body>
+</html>

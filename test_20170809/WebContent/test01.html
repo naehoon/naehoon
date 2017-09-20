@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script language="javascript">
+	
+	function view_name(x) {
+		var name = my_form.name.value;
+		alert("이름 : " + name);
+	}
+	
+	function view_blood(x) {
+		var bl = my_form.blood.options[my_form.blood.selectedIndex].value;
+		alert("혈액형 : " + bl);
+	}
+	
+	function view_search(){
+		alert("search start!!!!");
+	}
+	
+	function check_form(){
+		alert("전송 전 체크 작업!!!");
+		return true;
+	}
+	
+	function clear_form(){
+		alert("필드 초기화!!!");
+	}
+	
+</script>
+</head>
+
+<body>
+
+<form name="my_form" action="http://www.naver.com" onSubmit="return check_form()" onReset="clear_form()"> 
+
+	이름 : <input type="text" name="name" onselect="view_name()" /></br>
+	
+	혈액형 : <select name="blood" onchange="view_blood()">
+					<option value="A">A형</option>
+					<option value="B">B형</option>
+					<option value="O">O형</option>
+					<option value="AB">AB형</option>
+	    	   </select></br>
+    
+    search : <input type="button" value="search" onclick="view_search()"/></br></br>
+    
+    <input type="submit" value="전송"/>
+    <input type="reset" value="초기화"/>
+    
+</form>
+</body>
+</html>
