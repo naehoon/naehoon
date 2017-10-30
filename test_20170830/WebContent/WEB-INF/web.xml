@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>test_20170830</display-name>
+
+	<servlet>
+		<servlet-name>MyServlet01</servlet-name>
+		<servlet-class>ServletTest01</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet01</servlet-name>
+		<url-pattern>/ServletTest01</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>MyServlet02</servlet-name>
+		<servlet-class>ServletTest02</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet02</servlet-name>
+		<url-pattern>/ServletTest02</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MyServlet03</servlet-name>
+		<servlet-class>ServletTest03</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet03</servlet-name>
+		<url-pattern>/ServletTest03</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>MyServlet04</servlet-name>
+		<servlet-class>ServletTest04</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet04</servlet-name>
+		<url-pattern>/ServletTest04</url-pattern>
+	</servlet-mapping>	
+	
+
+	<servlet>
+		<servlet-name>MyServlet05</servlet-name>
+		<servlet-class>ServletTest05</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet05</servlet-name>
+		<url-pattern>/ServletTest05</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>
+		<servlet-name>MyServlet06</servlet-name>
+		<servlet-class>Servlet01_Seoul</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet06</servlet-name>
+		<url-pattern>/Servlet01_Seoul</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>
+		<servlet-name>MyServlet07</servlet-name>
+		<servlet-class>Servlet01_Busan</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MyServlet07</servlet-name>
+		<url-pattern>/Servlet01_Busan</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>ServletTest07</servlet-name>
+		<servlet-class>ServletTest07</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ServletTest07</servlet-name>
+		<url-pattern>/ServletTest08</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>ServletTest08</servlet-name>
+		<servlet-class>ServletTest08</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>ServletTest08</servlet-name>
+		<url-pattern>/Servlet01_request</url-pattern>
+	</servlet-mapping>
+	
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<!-- 디폴트는 윈도우 서버 계열의 기본 페이지 명이다 -->
+
+	</welcome-file-list>
+</web-app>

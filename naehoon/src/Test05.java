@@ -1,0 +1,7 @@
+class Test05{
+
+	public static void main(String[]args){
+
+			Test04.testmethod();
+	}
+}

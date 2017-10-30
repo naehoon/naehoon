@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+		function	 send_data(){
+			window.open(
+					 "http://localhost:8282/test_20170828/ServletTest02?name=oh&age=30"
+					,"popup"
+					,"location=yes, width=800, height=100"
+					);
+		}
+</script>
+</head>
+<body>
+<a href="#" onclick="send_data()">링크</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="button" value="버튼" onclick="send_data()"/>
+</body>
+</html>
